@@ -11,7 +11,7 @@ import {
 import SelectButton from "./SelectButton";
 import { chartDays } from "../config/data";
 import { CryptoState } from "../CryptoContext";
-import {CategoryScale,Chart,LinearScale, Point} from 'chart.js';
+import {CategoryScale,Chart,LinearScale } from 'chart.js';
 
 
 const CoinInfo = ({ coin }) => {

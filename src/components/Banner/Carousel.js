@@ -43,6 +43,7 @@ const Carousel = () => {
 
     useEffect(()=>{
         fetchTrendingCoins() ;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[currency])
     
 
@@ -63,7 +64,7 @@ const Carousel = () => {
             style={{ marginBottom: 10 }}
             />
             <span>
-            {coin?.symbol}
+            {coin?.symbol} 
             &nbsp;
 
                <span
