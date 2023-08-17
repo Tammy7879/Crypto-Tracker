@@ -3,10 +3,11 @@ import React  from 'react'
 import {useNavigate} from 'react-router-dom' 
 import { CryptoState } from '../CryptoContext'
 
+
 const useStyles = makeStyles(()=>({
     title:{
        flex : 1,
-       color :'gold',
+       color :'#87CEEB',
        fontFamily: 'Monteserrat',
        fontWeight:'bold' ,
        cursor:'pointer'
